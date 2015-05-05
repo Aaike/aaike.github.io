@@ -1,0 +1,77 @@
+{
+  "name": "portfolio",
+  "namespace": "aaike",
+  "endpoint": "github",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:aaike/portfolio.git"
+  },
+  "directories": {
+    "lib": "src",
+    "build": "dist"
+  },
+  "scripts": {
+    "test": "npm run jshint",
+    "jshint": "jshint src task test gulpfile.js"
+  },
+  "dependencies": {
+    "less-plugin-autoprefix": "^1.4.1",
+    "less-plugin-clean-css": "^1.5.0"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.7.0",
+    "compression": "^1.4.3",
+    "core-js": "^0.9.6",
+    "deep-extend": "^0.3.2",
+    "express": "^4.12.3",
+    "filesize": "^3.1.2",
+    "gulp": "^3.6.0",
+    "gulp-autoprefixer": "^2.2.0",
+    "gulp-babel": "^5.1.0",
+    "gulp-changed": "^1.2.1",
+    "gulp-clean": "^0.3.1",
+    "gulp-concat": "^2.5.2",
+    "gulp-imagemin": "^2.2.1",
+    "gulp-jshint": "^1.9.2",
+    "gulp-less": "^3.0.3",
+    "gulp-minify-css": "^1.1.1",
+    "gulp-plumber": "^1.0.0",
+    "gulp-rename": "^1.2.0",
+    "gulp-sourcemaps": "^1.5.2",
+    "gulp-uglify": "^1.1.0",
+    "gzip-size": "^1.0.0",
+    "imagemin-pngquant": "^4.1.0",
+    "jshint": "^2.6.3",
+    "jshint-stylish": "^1.0.1",
+    "object.assign": "^2.0.1",
+    "requiredir": "^1.0.6",
+    "run-sequence": "^1.1.0",
+    "serve-favicon": "^2.2.0",
+    "serve-index": "^1.6.3",
+    "serve-static": "^1.9.2",
+    "shell-task": "^1.0.0"
+  },
+  "jspm": {
+    "directories": {
+      "lib": "src"
+    },
+    "dependencies": {
+      "font-awesome": "npm:font-awesome@^4.3.0",
+      "materialize": "github:dogfalo/materialize@^0.96.1"
+    },
+    "devDependencies": {
+      "babel": "npm:babel-core@^5.1.13",
+      "babel-runtime": "npm:babel-runtime@^5.1.13",
+      "core-js": "npm:core-js@^0.9.4"
+    },
+    "overrides": {
+      "github:dogfalo/materialize@0.96.1": {
+        "directories": {
+          "lib": "dist"
+        },
+        "main": "js/materialize.js"
+      }
+    }
+  }
+}
