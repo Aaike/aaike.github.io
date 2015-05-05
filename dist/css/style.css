@@ -1,0 +1,24 @@
+.nav-wrapper .brand-logo{display:block;font-size:18px;line-height:normal;margin-top:10px;text-align:center}
+.nav-wrapper .brand-subtitle{line-height:normal;display:block;margin:0 auto;position:relative;top:37px}
+.nav-wrapper h1{margin:0}
+.text-med{font-size:1.2em}
+section{padding-top:20px}
+a{color:#9c27b0}
+a:hover{text-decoration:underline}
+nav{height:64px;line-height:64px}
+.article-container{margin-left:240px}
+@media only screen and (max-width:992px){.nav-wrapper .brand-subtitle{text-align:center}
+.article-container{margin-left:0}
+}
+.side-nav{color:#eee;box-shadow:3px 0 20px #000}
+.side-nav.fixed .plain{color:#ccc}
+.side-nav.fixed .plain a{line-height:normal;display:inline;padding:0;color:#fff}
+.side-nav.fixed a{color:#999;height:auto}
+.side-nav li{padding:0;transition:all .3s ease-out}
+.side-nav li:hover{background:#fff}
+.side-nav li:hover a{color:#333;text-decoration:none}
+.side-nav .brand-logo{text-align:center;line-height:normal;font-size:24px}
+footer.page-footer{padding-bottom:10px;color:#fff}
+.item{margin-bottom:2em}
+.no-wrap{word-break:keep-all;white-space:nowrap}
+.brand-subtitle-inpage{font-size:1.2em}
