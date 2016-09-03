@@ -1,0 +1,12 @@
+{
+  "globalDependencies": {
+    "bunyan": "registry:dt/bunyan#0.0.0+20160412155112",
+    "history": "registry:dt/history#1.8.0+20160316155526",
+    "react": "registry:dt/react#0.14.0+20160829191040",
+    "react-addons-pure-render-mixin": "registry:dt/react-addons-pure-render-mixin#0.14.0+20160316155526",
+    "react-addons-shallow-compare": "registry:dt/react-addons-shallow-compare#0.14.0+20160709044614",
+    "react-dom": "registry:dt/react-dom#0.14.0+20160412154040",
+    "react-router": "registry:dt/react-router#2.0.0+20160828232736",
+    "require": "registry:dt/require#2.1.20+20160316155526"
+  }
+}
